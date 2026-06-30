@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0282/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0282/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太清修丹祕訣
+  date: '2015-08-29 00:55:27.315356'
+  source:
+    repository: kanripo
+    path: KR5c0282
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0282_000-ZTDZ.yaml, hash: 'sha256:981e68d9e86e45b4d57624dd5863baee5e0332456e66009b07510f31a7730456'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0282_000-ZTDZ.markers.yaml, hash: 'sha256:449ffcf705ec1396deaf92a3e6351dd256e98072e63efa4f2f41c787fe427e58'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0282_SJB_000-180792b
+    span:
+    - body
+    - 0
+    - 2254
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:8b83d2fdfd5f3a883473ac09878134aad7864da7b0ee45b1d52beca14251ec1d
